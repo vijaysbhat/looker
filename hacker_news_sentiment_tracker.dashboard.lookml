@@ -10,7 +10,7 @@
 #  filters:
 
   elements:
-  
+
   - name: today_headline_sentiment
     title: Headline Sentiment
     type: looker_donut_multiples
@@ -225,7 +225,7 @@
       neutral - 7d_avg: '#61a5a4'
       positive - 7d_avg: '#2c8912'
     y_axis_labels: [Article count]
-    
+
   - name: content_sentiment_trend
     title: Content Sentiment Trend
     type: looker_line
@@ -284,5 +284,4 @@
       neutral - 7d_avg: neutral content
       negative - 7d_avg: negative content
     y_axis_labels: [Article count]
-  
-    
+
